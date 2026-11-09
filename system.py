@@ -11,8 +11,7 @@ class System:
             return False
 
     def get_total_earn(self):
-        return self.__total_earn
-
+        return round(self.__total_earn, 2)
 
     def balance_manipulation(self, client, pay):
         try:

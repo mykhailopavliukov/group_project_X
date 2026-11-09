@@ -76,4 +76,15 @@
    перевірки через assert. Також створює репозиторій - **Артем М.** (main)
 
 ---
+## Презентація
+
+
+```
+Rides completed:  7
+Client name: Artem, client balance: 197.08 uah
+Client name: Lola, client balance: 100 uah
+Total earnings:  2.92
+---------------------------------------------------
+Sorry, there is no bicycle on station
+```
 

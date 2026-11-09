@@ -33,7 +33,7 @@ class Bicycle:
 
     def end_ride(self):
         end_time = datetime.datetime.now()
-        difference = int(datetime.timedelta(end_time - self.__time).total_seconds()) / 60
+        difference = int((end_time - self.__time).total_seconds()) / 60
 
 
         if type == "NORMAL":
