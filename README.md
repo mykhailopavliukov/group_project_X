@@ -80,11 +80,14 @@
 
 
 ```
-Rides completed:  7
-Client name: Artem, client balance: 197.08 uah
-Client name: Lola, client balance: 100 uah
-Total earnings:  2.92
----------------------------------------------------
+Rides completed:  15
+Client name: Artem, client balance: 199.25 uah
+Client name: Lola, client balance: 99.5 uah
+Count of bicycles on station:  3
+Count of bicycles on station:  2
+Total earnings:  1.25
+---------------------------------------------------------------------------------
+test
 Sorry, there is no bicycle on station
 ```
 
