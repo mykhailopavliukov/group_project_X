@@ -88,3 +88,10 @@ Total earnings:  2.92
 Sorry, there is no bicycle on station
 ```
 
+![img.png](img.png)
+
+блок 1 - Міша
+блок 2 - Артем
+Блок 3 - Гоша
+Блок 4 - Артем М
+
