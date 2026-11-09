@@ -29,7 +29,7 @@ def create_test_data():
 def start_simulation(data, rides_min):
     rides_completed = 0
     system = data["system"]
-    rides_to_complete = random.randint(rides_min, rides_min*5)
+    rides_to_complete = random.randint(rides_min, rides_min*10)
     while rides_completed <= rides_to_complete:
         took_bicycle = system.take_bicycle(random.choice(data["users"]), random.choice(data["stations"]))
         if took_bicycle:
@@ -37,7 +37,7 @@ def start_simulation(data, rides_min):
         else:
             print("Sorry, there is no bicycle")
             continue
-        time.sleep(1)
+        time.sleep(random.randint(5, 15))
         try:
             system.return_bicycle(took_bicycle, random.choice(data["stations"]))
         except ValueError:
