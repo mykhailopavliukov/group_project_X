@@ -47,6 +47,9 @@ def start_simulation(data, rides_min):
     print("Rides completed: ", rides_completed)
     for user in data["users"]:
         print(user)
+
+    for station in data["stations"]:
+        print("Count of bicycles on station: ", station.get_count_of_bicycles())
     print("Total earnings: ", system.get_total_earn())
 
 def test_station_with_no_bicycle():
