@@ -16,7 +16,7 @@ class Client:
         except ValueError as e:
             print("Something went wrong while changing balance")
     def __str__(self):
-        return f"Client name: {self.__name}, client balance: {self.__balance} грн"
+        return f"Client name: {self.__name}, client balance: {self.__balance} uah"
 
 
 
