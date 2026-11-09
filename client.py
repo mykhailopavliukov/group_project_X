@@ -2,7 +2,6 @@ class Client:
     def __init__(self, name: str, balance: float):
         self.__name = name
         self.__balance = balance
-
     def get_name(self):
         return self.__name
 
@@ -16,11 +15,8 @@ class Client:
                 raise ValueError("Balance cannot be negative")
         except ValueError as e:
             print("Something went wrong while changing balance")
-
-
-
     def __str__(self):
-        return f"Client name: {self.__name}, client balance: {self.__balance}"
+        return f"Client name: {self.__name}, client balance: {self.__balance} грн"
 
 
 
