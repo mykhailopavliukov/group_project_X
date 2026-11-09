@@ -10,10 +10,11 @@ class Client:
 
     def change_balance(self, change: float):
             self.__balance -= change
+
             if self.__balance < 0:
                 raise ValueError("Balance cannot be negative")
     def __str__(self):
-        return f"Client name: {self.__name}, client balance: {self.__balance} uah"
+        return f"Client name: {self.__name}, client balance: {round(self.__balance, 2)} uah"
 
 
 
