@@ -1,6 +1,5 @@
 #Клас зберігає та повертає інформацію про кількість велосипедів.
 import datetime
-from logging import setLogRecordFactory
 
 import client
 
@@ -13,8 +12,8 @@ class Station:
     def get_count_of_bicycles(self):
         return len(self.bicycles)
 
-    def remove_bicycle(self, bicycle: Bicycle):
-        self.bicycles.remove(bicycle)
+    def get_bicycle(self):
+        return self.bicycles.pop(0)
 
     def get_bicycle(self, bicycle: Bicycle):
         self.bicycles.append(bicycle)
