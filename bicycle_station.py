@@ -15,7 +15,7 @@ class Station:
     def get_bicycle(self):
         return self.bicycles.pop(0)
 
-    def get_bicycle(self, bicycle: Bicycle):
+    def return_bicycle(self, bicycle: Bicycle):
         self.bicycles.append(bicycle)
 
 #Клас зберігає інформацію про велосипед(його тип, номер),
