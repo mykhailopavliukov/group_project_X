@@ -38,7 +38,10 @@ def start_simulation(data, rides_min):
             print("Sorry, there is no bicycle")
             continue
         time.sleep(20)
-        system.return_bicycle(took_bicycle, random.choice(data["stations"]))
+        try:
+            system.return_bicycle(took_bicycle, random.choice(data["stations"]))
+        except ValueError:
+            print("Sorry, you dont have enough money")
         rides_completed += 1
 
     print("Rides completed: ", rides_completed)

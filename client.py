@@ -15,19 +15,3 @@ class Client:
                 raise ValueError("Balance cannot be negative")
     def __str__(self):
         return f"Client name: {self.__name}, client balance: {round(self.__balance, 2)} uah"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
